@@ -49,6 +49,11 @@ python preprocess.py --filelists path/to/filelist_train.txt path/to/filelist_val
 ```
 Edit "training_files" and "validation_files" in configs/config.json
 
+or you can change the command into this to specify the files
+```sh
+python preprocess.py --filelists filelists/miyu_train.txt filelists/miyu_val.txt
+```
+
 ## Train
 ```sh
 # Mutiple speakers
